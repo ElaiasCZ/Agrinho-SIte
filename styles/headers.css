@@ -112,9 +112,6 @@
         font-weight: 700;
     }
 
-    .opções {
-        display: flex;
-    }
 
     .opções__item {
         padding: 0 1em;
@@ -210,12 +207,12 @@
         position: relative;
         padding: 0 100px;
         padding-bottom: 5px;
-        width: 1023px;
+        width: 1024px;
     }
 
     .container__imagem {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
        
     }
 }
