@@ -10,22 +10,28 @@
     --azul3:#1c00b8;
 }
 
+
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 400;
 }
+
 
 .container{
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
+    align-items: center;
+    width: 100%;
 }
 
+
 .topico1_descricao{
-width: 50%;
-padding: 10em;
+width: 100%;
+padding: 2em;
 }
+
 
 .topico1_titulo{
     font-weight: 700;
@@ -34,6 +40,7 @@ padding: 10em;
     color: var(--azul5);
     margin-bottom: 0.2em;
 }
+
 
 .topico2_titulo{
     font-weight: 700;
@@ -44,6 +51,7 @@ padding: 10em;
     margin-top: 1em;
 }
 
+
 .topico1_texto{
     margin-top: 35px;
     text-align: justify;
@@ -52,77 +60,94 @@ padding: 10em;
     line-height: 1.5em;
 }
 
+
 span{
     text-decoration: underline;
 }
 
-.topico2_texto{
-    margin-top: 35px;
-    text-align: justify;
-    color: var(--azul1);
-    font-size: 14px;
-    line-height: 1.5em;
-}
-
-.topico2_imagem{
-    width: 30%;
-    margin: 2em;
-    padding-left: none;
-}
-
-.topico3_imagem{
-    width: 30%;
-    margin: 2em;
-    padding-left: none;
-}
 
 .topico1_imagem{
-    width: 30%;
+    width: 50%;
+    display: flex;
+
+
+
+
+}
+
+
+.topico2_imagem{
+    width: 100%;
+    align-items: end;
+
+
+}
+
+
+.topico3_imagem{
+    width: 50%;
     margin: 2em;
     padding-left: none;
 }
+
+
+
+
+
 
 @media screen and (min-width: 1728px) {
 
+
+    .container{
+        margin-top: 50px;
+        display: flex;
+    }
+
+
     .topico1_titulo{
-        font-weight: 900;
+        font-weight: 700;
         font-size: 40px;
     }
-    
+   
     .topico2_titulo{
-        font-weight: 900;
+        font-weight: 700;
         font-size: 25px;
     }
+
 
     .topico1_texto{
         font-size: 18px;
         line-height: 1.5em;
     }
 
+
     .topico1_imagem{
-        width: 70%;
-        margin: 7em;
-        
-    }   
+        width: 30%;
+        margin: 5em;
+       
+    }  
+
 
     .topico2_imagem{
-        width: 70%;
-        margin: 7em;
-        
-    }   
+        width: 50%;
+        margin: 5em;
+       
+    }  
+
 
     .topico3_imagem{
-        width: 70%;
-        margin: 7em;
-        
-    }   
+        width: 50%;
+        margin: 5em;
+       
+    }  
 }
 @media screen and (min-width: 200px) and (max-width: 1023px) {
+
 
     .container{
         margin-top: 50px;
         display:block;
-        align-items: center;
+        align-items:center;
     }
     .topico1_titulo{
         font-size: 45px;
@@ -130,13 +155,13 @@ span{
         margin-bottom: 0.2em;
         width: 800px;
     }
-    
+   
     .topico2_titulo{
         font-size: 40px;
         color: var(--azul5);
         width: 800px;
     }
-    
+   
     .topico1_texto{
         margin-top: 35px;
         color: var(--azul1);
@@ -144,40 +169,39 @@ span{
         line-height: 1.5em;
         width: 800px;
     }
-    
+   
     .topico1_descricao{
         width: 100%;
         padding: 15em;
         }
 
+
        
     .topico1_imagem{
         margin-left: 1000px;
-        width: 500px;
+        width: 900px;
         padding: 20em;
         align-items: center;
-        
-        } 
-        
+       
+        }
+       
     .topico2_imagem{
         margin-left: 1000px;
         width: 500px;
         padding: 20em;
         align-items: center;
-            
+           
             }  
+
 
     .topico3_imagem{
         margin-left: 1000px;
         width: 500px;
         padding: 20em;
         align-items: center;
-                
+               
             }  
+
 
      
 }
-
-
-
-
